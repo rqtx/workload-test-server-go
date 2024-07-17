@@ -16,7 +16,7 @@ before:
 builds:
   - env:
       - CGO_ENABLED=1
-    main: ./src/main.go
+    main: ./src/
     goos:
       - linux
     goarch:
@@ -40,4 +40,3 @@ kos:
     platforms:
       - linux/amd64
       - linux/arm64
-
