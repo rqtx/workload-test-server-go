@@ -21,7 +21,7 @@ builds:
       - linux
     goarch:
       - amd64
-      - arch64
+      - arm64
 
 changelog:
   sort: asc
