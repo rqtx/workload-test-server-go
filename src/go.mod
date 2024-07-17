@@ -1,4 +1,4 @@
-module rqtx/workload-test-server
+module rqtx/workload-test-server/v2
 
 go 1.22.3
 
