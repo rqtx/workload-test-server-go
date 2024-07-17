@@ -1,6 +1,8 @@
 name: Releasing artifacts with GoReleaser and ko
 on:
   push:
+    branches:
+      - "main"
     tags:
       - 'v*'
 permissions:
