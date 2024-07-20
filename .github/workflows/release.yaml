@@ -18,9 +18,9 @@ jobs:
           go-version: 1.22
           cache: true
       - name: "run goreleaser"
-        uses: goreleaser/goreleaser-action@v4 # run goreleaser
+        uses: goreleaser/goreleaser-action@v6 # run goreleaser
         with:
-          version: "~> v1"
+          version: "~> v2"
           args: release
         env:
           KO_DOCKER_REPO: ghcr.io/${{ github.repository_owner }}/goreleaser-with-ko
